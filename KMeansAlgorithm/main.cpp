@@ -95,9 +95,9 @@ int main(int argc, char* argv[])
 
 	KMeansCluster kmc(petalData);
 
-	/*unordered_map<string, vector<vector<double>>> minimumClusterCenter = kmc.createClusters(2, 100);
+	unordered_map<string, vector<vector<double>>> minimumClusterCenter = kmc.createClusters(2, 100);
 
-	for (auto it = minimumClusterCenter.begin(); it != minimumClusterCenter.end(); ++it)
+	/*for (auto it = minimumClusterCenter.begin(); it != minimumClusterCenter.end(); ++it)
 	{
 		pair<string, vector<vector<double>>> clusterCenter = *it;
 

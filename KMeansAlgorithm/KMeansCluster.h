@@ -13,5 +13,9 @@ public:
 
 private:
 	vector<vector<double>> kmd;
+
+	double euclidianDistance(double x1, double y1, double x2, double y2);
+
+	string centroidToString(vector<double>& centroid);
 };
 
