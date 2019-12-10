@@ -1,5 +1,5 @@
 ﻿  KMeansCluster.cpp
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(34,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(144,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         [
@@ -49,22 +49,22 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xhash(620): message :             _Alloc=std::allocator<std::pair<const double,int>>,
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xhash(620): message :             _Alnode=std::allocator<std::_List_node<std::pair<const double,int>,std::_Default_allocator_traits<std::allocator<std::pair<const double,int>>>::void_pointer>>
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xhash(620): message :         ]
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,int,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<double&,size_t&>(double &,size_t &)' being compiled
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         with
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         [
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Ty=std::pair<const double,int>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Kty=double,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Hasher=std::hash<double>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Keyeq=std::equal_to<double>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Alloc=std::allocator<std::pair<const double,int>>
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         ]
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,int,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<double&,size_t&>(double &,size_t &)' being compiled
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         with
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         [
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Ty=std::pair<const double,int>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Kty=double,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Hasher=std::hash<double>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Keyeq=std::equal_to<double>,
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :             _Alloc=std::allocator<std::pair<const double,int>>
-C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(82): message :         ]
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,int,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<double&,size_t&>(double &,size_t &)' being compiled
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         with
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         [
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Ty=std::pair<const double,int>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Kty=double,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Hasher=std::hash<double>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Keyeq=std::equal_to<double>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Alloc=std::allocator<std::pair<const double,int>>
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         ]
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,int,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<double&,size_t&>(double &,size_t &)' being compiled
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         with
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         [
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Ty=std::pair<const double,int>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Kty=double,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Hasher=std::hash<double>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Keyeq=std::equal_to<double>,
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :             _Alloc=std::allocator<std::pair<const double,int>>
+C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\KMeansAlgorithm\KMeansCluster.cpp(205): message :         ]
   KMeansAlgorithm.vcxproj -> C:\ComputerScience\ArtificialIntelligence\KMeansAlgorithm\x64\Debug\KMeansAlgorithm.exe

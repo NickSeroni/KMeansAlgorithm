@@ -82,41 +82,41 @@ vector<vector<double>> readData(const char*& filePath)
 
 int main(int argc, char* argv[])
 {
-	vector<vector<double>> petalData = readData(smallTestData);
+	vector<vector<double>> petalData = readData(bigTestData);
 
-	for (int row = 0; row < petalData.size(); row++)
+	/*for (int row = 0; row < petalData.size(); row++)
 	{
 		for (int col = 0; col < petalData[row].size(); col++)
 		{
 			cout << petalData[row][col] << " ";
 		}
 		cout << endl;
-	}
+	}*/
 
 	KMeansCluster kmc(petalData);
 
 	unordered_map<string, vector<vector<double>>> minimumClusterCenter = kmc.createClusters(2, 100);
 
-	/*for (auto it = minimumClusterCenter.begin(); it != minimumClusterCenter.end(); ++it)
+	for (auto it = minimumClusterCenter.begin(); it != minimumClusterCenter.end(); ++it)
 	{
-		pair<string, vector<vector<double>>> clusterCenter = *it;
+		pair<string, vector<vector<double>>> clustercenter = *it;
 
-		string clusterCenterString = clusterCenter.first;
+		string clustercenterstring = clustercenter.first;
 
-		cout << "Cluster Center: " << clusterCenterString << endl;
+		cout << "cluster center: " << clustercenterstring << endl;
 
-		vector<vector<double>> clusterData = clusterCenter.second;
+		vector<vector<double>> clusterdata = clustercenter.second;
 
-		for (int i = 0; i < clusterData.size(); i++)
+		for (int i = 0; i < clusterdata.size(); i++)
 		{
-			for (int j = 0; j < clusterData[i].size(); j++)
+			for (int j = 0; j < clusterdata[i].size(); j++)
 
 			{
-				cout << clusterData[i][j] << " ";
+				cout << clusterdata[i][j] << " ";
 			}
 			cout << endl;
 		}
-	}*/
+	}
 
 	return 0;
 }
